@@ -23,6 +23,12 @@ normal_push() {
     git push
 }
 
+# Submodule 
+submod() {
+    git submodule status
+}
+
 # Execute 
-normal_push
+# normal_push
 check_branch_remote
+submod
